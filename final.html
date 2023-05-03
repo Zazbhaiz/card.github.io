@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Contact Form Styling with HTML/CSS3</title>
+  <title>CodePen</title>
   <link rel="stylesheet" href="./style2.css">
 
 </head>
@@ -26,14 +26,23 @@
 <input name="dname" placeholder="Your Name" type="text">
 <label>Email :</label>
 <input name="demail" placeholder="Your Email" type="text" readonly>
-<label>Message :</label>
+<label>Channel :</label>
 <textarea name="dmsg" placeholder="Channel Url">
 </textarea>
-<input name="dsubmit" type="submit" value="Superchat Video Url
+<label>Video :</label>
+<textarea name="dmsg" placeholder="Superchat Video Url">
+</textarea>
+<input name="dsubmit" type="submit" value="Send" onclick="myFunction()">
 </form>
 </div>
 </div>
+  <script>
+function myFunction() {
+  location.replace("success.html")
+}
+</script>
 </body>
+  
 </html>
 <!-- partial -->
   
